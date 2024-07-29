@@ -10,6 +10,6 @@ We collected raw essay data from sources like Kaggle, Google Dataset, and a surv
 <b>Working of the Model: </b><br>
 Gradient Boosting Regressor (GBR) is a powerful algorithm used in Automated Essay Grading (AEG) systems to predict continuous scores based on essays. It iteratively trains weak decision tree models, improving accuracy by adjusting the weights of misclassified data points and training on the weighted dataset. This iterative process continues until a stopping criterion is met, and final predictions are made by aggregating all models' outputs. GBR is effective for regression tasks, especially with appropriate feature engineering. The model's performance is evaluated using Mean Squared Error (MSE) and Mean Absolute Error (MAE). MSE, which penalizes larger errors more, is useful for data with a wide range of values, while MAE treats all errors equally and is less sensitive to outliers, making it suitable for datasets with outliers.
 <br>
-<be>
+<br>
 <b>Result: </b><br>
 As a result of using Gradient Boosting Regression, the prediction model achieved an accuracy of 96%, indicating that the model was highly accurate and effective at predicting the outcomes for the given data.
